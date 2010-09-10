@@ -1,0 +1,4 @@
+glob:eclipse workspace/OSGi Receita Exporter Test/.settings/*
+glob:eclipse workspace/OSGi Receita Exporter Test/target/*
+glob:eclipse workspace/OSGi Receita Exporter/target/*
+glob:eclipse workspace/OSGi Receita Exporter/.settings/*

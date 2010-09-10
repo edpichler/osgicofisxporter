@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGi_Receita_Exporter_Test
+Bundle-SymbolicName: OSGi_Receita_Exporter_Test
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.edpichler.receita.services.impl
+Import-Package: com.edpichler.receita.interfaces,
+ com.edpichler.receita.services.impl
