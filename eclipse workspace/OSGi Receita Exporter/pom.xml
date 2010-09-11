@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.edpichler</groupId>
 	<artifactId>ReceitaExporter</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.0</version>
 	<name>Receita Exporter</name>
 	<description>Exporta pra arquivos da Receita. </description>
 	<packaging>jar</packaging>

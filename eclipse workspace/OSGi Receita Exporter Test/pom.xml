@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.edpichler.test</groupId>
 	<artifactId>ReceitaExporterTest</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.0</version>
 	<name>Receita Exporter Test</name>
 	<description>Testes Unitários</description>
 	<packaging>jar</packaging>
