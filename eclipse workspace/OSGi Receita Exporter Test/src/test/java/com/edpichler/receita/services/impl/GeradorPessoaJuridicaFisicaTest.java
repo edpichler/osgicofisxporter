@@ -27,7 +27,7 @@ public class GeradorPessoaJuridicaFisicaTest {
 			@Override
 			public String getUnidadeFederacao() {
 
-				return "ASDFASDF";
+				return "SC";
 			}
 
 			@Override
@@ -52,7 +52,7 @@ public class GeradorPessoaJuridicaFisicaTest {
 
 			@Override
 			public String getInscricaoEstadual() {
-				return "32424134";
+				return "66446466";
 			}
 
 			@Override
@@ -73,7 +73,7 @@ public class GeradorPessoaJuridicaFisicaTest {
 
 			@Override
 			public String getCnpjCpf() {
- 				return "041173598723423424";
+ 				return "041723423424";
 			}
 
 			@Override
@@ -85,7 +85,7 @@ public class GeradorPessoaJuridicaFisicaTest {
 			@Override
 			public String getBairro() {
 
-				return "Fortaleza alta";
+				return "Fortaleza Alta";
 			}
 		};
 	}
