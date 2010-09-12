@@ -1,12 +1,11 @@
 Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ReceitaExporter
+Bundle-SymbolicName: ReceitaExporter
+Bundle-Version: 1.0.0.1
 Export-Package: com.edpichler.receita.interfaces,
+ com.edpichler.receita.log,
+ com.edpichler.receita.services,
  com.edpichler.receita.services.impl;uses:="com.edpichler.receita.services"
 Tool: Bundlor 1.0.0.RELEASE
-Import-Package: org.apache.log4j,
- org.aspectj.lang,
- org.slf4j
-Bundle-SymbolicName: ReceitaExporter
-Bundle-Name: ReceitaExporter
-Bundle-Version: 1.0.0.1
-Bundle-ManifestVersion: 2
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.apache.log4j,org.aspectj.lang,org.slf4j
