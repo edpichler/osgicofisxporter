@@ -36,6 +36,10 @@ public interface IRegistroSaidaMercadoriasEServicos {
 	 * Tamanho = 2
 	 */
 	public String getCodigoSituacaoTributariaPisPasep();
+	/**
+	 * Tamanho = 2
+	 */
+	public String getCodigoSituacaoTributariaCofins();
 
 	/**
 	 * Tamanho = 8

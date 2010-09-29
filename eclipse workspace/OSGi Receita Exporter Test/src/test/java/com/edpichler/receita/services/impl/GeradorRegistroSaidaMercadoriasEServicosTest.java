@@ -80,6 +80,10 @@ public class GeradorRegistroSaidaMercadoriasEServicosTest {
 			public String getCodigoSituacaoTributariaPisPasep() {
 
 				return getString();
+			}@Override
+			public String getCodigoSituacaoTributariaCofins() {
+
+				return getString();
 			}
 
 			@Override
