@@ -40,7 +40,7 @@ public class GeradorRegistroSaidaMercadoriasEServicos extends GeradorBase
 		st.append(formatarNumero(param.getNumeroDoItem(), 3, 0));
 		st.append(formatarString(param.getCodigoSituacaoTributariaPisPasep(), 2));
 		st.append(formatarNumero(param.getAliquotaPisPasep(), 8, 4));
-		st.append(formatarNumero(param.getBaseCalculoPisPasep(), 17, 4));
+		st.append(formatarNumero(param.getBaseCalculoPisPasep(), 17, 3));
 		st.append(formatarNumero(param.getValorPisPasep(), 17, 2));
 		st.append(formatarString(param.getCodigoSituacaoTributariaCofins(), 2));
 		st.append(formatarNumero(param.getAliquotaCofins(), 8, 4));

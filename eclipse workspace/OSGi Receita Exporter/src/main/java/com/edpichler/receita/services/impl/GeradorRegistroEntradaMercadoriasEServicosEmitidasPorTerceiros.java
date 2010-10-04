@@ -43,7 +43,7 @@ public class GeradorRegistroEntradaMercadoriasEServicosEmitidasPorTerceiros exte
 		st.append(formatarNumero(param.getNumeroDoItem(), 3, 0));
 		st.append(formatarString(param.getCodigoSituacaoTributariaPisPasep(), 2));
 		st.append(formatarNumero(param.getAliquotaCreditoPisPasep(), 8, 4));
-		st.append(formatarNumero(param.getBaseCalculoCreditoPisPasep(), 17, 4));
+		st.append(formatarNumero(param.getBaseCalculoCreditoPisPasep(), 17, 3));
 		st.append(formatarNumero(param.getValorCreditoPisPasepVinculadoReceitaExportacao(), 17, 2));
 		st.append(formatarNumero(param.getValorCreditoPisPasepVinculadoReceitaTributadaMercadoInterno(), 17, 2));
 		st.append(formatarNumero(param.getValorCreditoPisPasepVinculadoReceitaNaoTributadaMercadoInterno(), 17, 2));		
