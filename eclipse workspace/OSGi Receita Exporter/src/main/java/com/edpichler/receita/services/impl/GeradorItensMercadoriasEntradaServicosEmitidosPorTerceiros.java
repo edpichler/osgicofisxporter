@@ -51,11 +51,11 @@ public class GeradorItensMercadoriasEntradaServicosEmitidosPorTerceiros extends 
 		switch (p.getIndicadorTributacaoIpi()) {
 		case ISENTO_OU_NAO_TRIBUTADO:
 			st.append(formatarString("2", 1));
-			break;
-		case TRIBUTADO:			
+			break;					
 		case OUTRAS:
 			st.append(formatarString("3", 1));
 			break;
+		case TRIBUTADO:
 		case RECUPERA_IPI:
 			st.append(formatarString("1", 1));
 			break;
@@ -69,11 +69,11 @@ public class GeradorItensMercadoriasEntradaServicosEmitidosPorTerceiros extends 
 		switch (p.getIndicadorTributarioIcms()) {
 		case ISENTO_OU_NAO_TRIBUTADO:
 			st.append(formatarString("2", 1));
-			break;
-		case RECUPERA_IPI:			
+			break;		
 		case OUTRAS:
 			st.append(formatarString("3", 1));
-			break;		
+			break;
+		case RECUPERA_IPI:
 		case TRIBUTADO:
 			st.append(formatarString("1", 1));
 			break;
