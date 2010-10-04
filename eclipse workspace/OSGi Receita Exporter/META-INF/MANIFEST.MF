@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: COFIS Receita Exporter
 Bundle-SymbolicName: COFISReceitaExporter
-Bundle-Version: 1.0.0.2
+Bundle-Version: 1.0.0.3
 Bundle-Description: Cofis 55/2009 Receita Exporter. Exporta arquivos digitais para a receita federal, de acordo com o layout COFIS 55/2009.
 Export-Package: com.edpichler.receita.interfaces,
  com.edpichler.receita.log,
