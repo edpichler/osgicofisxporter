@@ -30,11 +30,11 @@ public interface IExportacao {
 	/**
 	 * Tamanho = 12
 	 */
-	public int getNumeroRegistroExportacao();
+	public long getNumeroRegistroExportacao();
 
 	/**
 	 * Tamanho = 12
 	 */
-	public int getNumeroDespachoExportacao();
+	public long getNumeroDespachoExportacao();
 
 }
