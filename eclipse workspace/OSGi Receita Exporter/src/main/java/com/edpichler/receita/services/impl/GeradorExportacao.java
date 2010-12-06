@@ -30,11 +30,11 @@ public class GeradorExportacao extends GeradorBase {
 
 		st.append(formatarString(param.getModeloDocumento(), 2));
 		st.append(formatarString(param.getSerieSubserieDocumento(), 5));
-		st.append(formatarNumero(param.getNumeroDocumento(), 9, 2));
+		st.append(formatarNumero(param.getNumeroDocumento(), 9, 0));
 		st.append(formatarData(param.getDataEmissaoDocumento()));
 
-		st.append(formatarNumero(param.getNumeroRegistroExportacao(), 12, 2));
-		st.append(formatarNumero(param.getNumeroDespachoExportacao(), 12, 2));
+		st.append(formatarNumero(param.getNumeroRegistroExportacao(), 12, 0));
+		st.append(formatarNumero(param.getNumeroDespachoExportacao(), 12, 0));
 		return st.toString();
 	}
 }
